@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Cheesecake Order Form</title>
+  <script
+
+src=" https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"/>
+ </script>
+<link rel="stylesheet" href="/stylesheets/style.css">
+<script  src="/javascripts/script.js"></script>
+  
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<html>
+<div>
+
+<!---The code below holds the font, boldness of the heading "Cheesecake Order Form"--->
+<h1><strong>Cheesecake Order Form</strong></h1>
+</div>
+
+<!---Holds img source link from wikimedia, 
+with alternate text and set the dimensions to 167px and 150px--->
+<div><main><a href="#"><img class="image-border" src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/9c/Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg/800px-Mondays_at_Il_Forno_-_Cheesecake_with_strawberry_sauce.jpg" alt="Strawberry sauce Cheesecake" width="167" height="150" /></a>
+<p>Quantity Topping</p>
+
+<!---Topping number drop down, set background color to gray, rounded the edges and set border color to light gray
+--->
+<table style="border-collapse: collapse; width: 35%; height: 72px;" border="0">
+<tbody>
+<tr style="height: 72px;">
+<td style="width: 32%; height: 72px;"><br /><label for="toppings"></label><select id="toppings" style="background-color: #d3d3d3; border-radius: 2px; border-color: #C0C0C0;" name="toppings">
+
+<option value="3">3</option>
+<option value="2">2</option>
+<option value="1">1</option>
+
+</select></td>
+<td style="width:50%; height: 72px;">
+
+<label for="Plain"><label for="Plain"><input id="plain" name="toppings" type="radio" /> Plain</label></br></label>
+<label for="Cherry"><input id="cherry" name="toppings" type="radio" /> Cherry</label><br />
+<label for="Chocolate"><input id="chocolate" name="toppings" type="radio" /> Chocolate</label></p>
+
+</td>
+</tr>
+</tbody>
+</table>
+
+<!---Notes and text area section with radio button--->
+<head>Notes:</head><br/>
+
+<textarea cols="50" rows="4" placeholder="Enter any special instructions here."></textarea><br /><button style="background-color: #d3d3d3; border-radius: 2px; border-color: #C0C0C0;" type="submit">Order</button>
+
+<!---Total orders using an unnumbered list--->
+
+<h3> Orders for <div class="dropdown">
+  <button id="dropbtn" class="dropbtn">Jan</button>
+  <div id ="months" class="dropdown-content">
+  <a class="dropdown-item" value="Jan">Jan</a>
+ <a class="dropdown-item" value="Feb">Feb</a>
+ <a class="dropdown-item" value="Mar">Mar</a>
+ <a class="dropdown-item" value="Apr">Apr</a>
+ <a class="dropdown-item" value="May">May</a>
+ <a class="dropdown-item" value="Jun">Jun</a>
+ <a class="dropdown-item" value="Jul">Jul</a>
+ <a class="dropdown-item" value="Aug">Aug</a>
+ <a class="dropdown-item" value="Sep">Sep</a>
+ <a class="dropdown-item" value="Oct">Oct</a>
+ <a class="dropdown-item" value="Nov">Nov</a>
+ <a class="dropdown-item" value="Dec">Dec</a>
+ </select></h3>
+<ul>
+<li>11 cherry</li>
+<li>17 chocolate</li>
+<li>31 plain</li>
+</ul>
+
+</main>
+</html>
+<!-- partial -->
+ 
+
+</body>
+</html>
